@@ -5,7 +5,7 @@ Android OS starts activities up to intents you send as a broadcast, but because 
 
 This library uses a singleton class to create a static object and keep instances of your activities. So, you can reach them out whenever you want, and do whatever you wish. 
 
-To use this library, you need to notify TheActivityManager `onCreate`, `onResume`, `onPause` and `onDestroy` methods of activity. Or you can simply extend `ManagerBaseActiviy` and it will take care of the rest. 
+To use this library, you need to notify TheActivityManager `onCreate`, `onResume`, `onPause` and `onDestroy` of activity. Or you can simply extend `ManagerBaseActiviy` and it will take care of the rest. 
 
 ```java 
 TheActivityManager.getInstance().getCurrentActivity(); 
