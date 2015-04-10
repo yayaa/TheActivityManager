@@ -55,6 +55,10 @@ Compatibility
 
 This library works on 2.2+ probably earlier as well, but i didn't even bother to test because i believe at some point we have to stop supporting every version ;)
 
+Gradle
+------
+Coming Soon!
+
 License
 -----------
 
