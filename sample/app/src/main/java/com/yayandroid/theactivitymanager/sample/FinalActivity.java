@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.yayandroid.theactivitymanager.library.ManagerBaseActivity;
-import com.yayandroid.theactivitymanager.library.TheActivityManager;
+import com.yayandroid.theactivitymanager.ManagerBaseActivity;
+import com.yayandroid.theactivitymanager.TheActivityManager;
 
 
 /**

@@ -22,5 +22,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.0.0'
-    compile project(':app:TheActivityManager')
+    compile 'com.yayandroid:TheActivityManager:1.0.1'
 }

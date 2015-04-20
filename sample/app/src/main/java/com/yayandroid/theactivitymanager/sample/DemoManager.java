@@ -6,7 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Handler;
 
-import com.yayandroid.theactivitymanager.library.TheActivityManager;
+import com.yayandroid.theactivitymanager.TheActivityManager;
 
 import java.util.ArrayList;
 

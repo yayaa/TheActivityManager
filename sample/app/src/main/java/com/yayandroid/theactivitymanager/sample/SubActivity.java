@@ -3,7 +3,7 @@ package com.yayandroid.theactivitymanager.sample;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.yayandroid.theactivitymanager.library.ManagerBaseActivity;
+import com.yayandroid.theactivitymanager.ManagerBaseActivity;
 
 /**
  * Created by yahyabayramoglu on 06/04/15.

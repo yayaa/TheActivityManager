@@ -12,9 +12,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.yayandroid.theactivitymanager.library.ActivityTransporter;
-import com.yayandroid.theactivitymanager.library.ManagerBaseActivity;
-import com.yayandroid.theactivitymanager.library.TheActivityManager;
+import com.yayandroid.theactivitymanager.ActivityTransporter;
+import com.yayandroid.theactivitymanager.ManagerBaseActivity;
+import com.yayandroid.theactivitymanager.TheActivityManager;
 
 import java.util.ArrayList;
 
