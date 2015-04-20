@@ -59,7 +59,11 @@ This library works on 2.2+ probably earlier as well, but i didn't even bother to
 
 Gradle
 ------
-Coming Soon!
+```groovy
+dependencies {
+    compile 'com.yayandroid:TheActivityManager:1.0.1'
+}
+```
 
 
 [1]: https://twitter.com/ID_AA_Carmack
