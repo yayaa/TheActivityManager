@@ -44,6 +44,16 @@ TheActivityManager.getInstance().setNextStep(activityTransporter);
 Let's assume that you have Activity A and C but before you go to C you need to do something in Activity B. So you tell TheActivityManager that C is your nextStep with the extras if necessary and when you done with B just call moveForward method and TheActivityManager will lead user to that acitivity with already given extras. 
 </li></ul>
 
+## Download
+Add library dependency to your `build.gradle` file:
+
+[![Maven Central](https://img.shields.io/maven-central/v/com.yayandroid/TheActivityManager.svg)](http://search.maven.org/#search%7Cga%7C1%7CCustomTabsFragment)
+```groovy
+dependencies {    
+     compile 'com.yayandroid:TheActivityManager:1.0.1'
+}
+```
+
 Name Story
 ----------
 
@@ -56,14 +66,6 @@ Compatibility
 -------------
 
 This library works on 2.2+ probably earlier as well, but i didn't even bother to test because i believe at some point we have to stop supporting every version ;)
-
-Gradle
-------
-```groovy
-dependencies {
-    compile 'com.yayandroid:TheActivityManager:1.0.1'
-}
-```
 
 
 [1]: https://twitter.com/ID_AA_Carmack
