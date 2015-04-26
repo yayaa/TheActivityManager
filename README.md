@@ -47,7 +47,7 @@ Let's assume that you have Activity A and C but before you go to C you need to d
 ## Download
 Add library dependency to your `build.gradle` file:
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.yayandroid/TheActivityManager.svg)](http://search.maven.org/#search%7Cga%7C1%7CCustomTabsFragment)
+[![Maven Central](https://img.shields.io/maven-central/v/com.yayandroid/TheActivityManager.svg)](http://search.maven.org/#search%7Cga%7C1%7CTheActivityManager)
 ```groovy
 dependencies {    
      compile 'com.yayandroid:TheActivityManager:1.0.1'
