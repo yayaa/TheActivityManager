@@ -1,12 +1,12 @@
 package com.yayandroid.theactivitymanager;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by yahyabayramoglu on 06/04/15.
  */
-public class ManagerBaseActivity extends Activity {
+public class ManagerBaseActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
