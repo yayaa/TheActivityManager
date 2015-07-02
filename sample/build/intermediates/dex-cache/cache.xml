@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.yayandroid/TheActivityManager/1.0.1/classes.jar"
+        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="0f0b68735af52bb4e7f98f35c03a6d19e1b6ef1e">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-aba7b6b75821fe681e5fadd87cb09d07159adb44.jar" />
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-d543fc2ac5f273ec0d1429f9748a4c875e1c00e8.jar" />
     </item>
     <item
-        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-9f49fa1e54b5c141576d04014af7f8f59dc4c2fc.jar" />
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-8810d78a3fbec6c46adc9473e3824b1cc034d92e.jar" />
     </item>
     <item
-        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jar="/Users/yahyabayramoglu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-23f329850ef918db28700c824eddf83b651c143b.jar" />
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-be370459d8c59148887320a0fcc1912f7d0df3ec.jar" />
     </item>
     <item
-        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.yayandroid/TheActivityManager/1.0.2/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-51993de1fa8ece6e94a26bed9be56b831c016b88.jar" />
+        sha1="1d1ac91711d6167578d039231ec24545a09c56b2">
+        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-a5edd5395d719743a1163d11ada54a5fd8e4b409.jar" />
     </item>
     <item
-        jar="/Users/yahyabayramoglu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-392b068ca5d04bf600d55fae6530d538754e64d9.jar" />
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-9719bdca377b2aeb09798350e80940204f546434.jar" />
     </item>
 
 </items>
