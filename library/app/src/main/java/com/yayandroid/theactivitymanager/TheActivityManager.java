@@ -67,7 +67,11 @@ public class TheActivityManager {
     public Activity getCurrentActivity() {
         if (activities.size() > 0) {
             synchronized (activities) {
-                return activities.get(activities.size() - 1).getActivity();
+                for (int i = 0; i < activities.size(); i++) {
+                    if (activities.get(i).isRunning()) {
+                        return activities.get(i).getActivity();
+                    }
+                }
             }
         }
         return null;
