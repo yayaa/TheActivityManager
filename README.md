@@ -48,7 +48,7 @@ Add library dependency to your `build.gradle` file:
 [![Maven Central](https://img.shields.io/maven-central/v/com.yayandroid/TheActivityManager.svg)](http://search.maven.org/#search%7Cga%7C1%7CTheActivityManager)
 ```groovy
 dependencies {    
-     compile 'com.yayandroid:TheActivityManager:1.0.3'
+     compile 'com.yayandroid:TheActivityManager:1.0.5'
 }
 ```
 
