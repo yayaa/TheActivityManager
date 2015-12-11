@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-d543fc2ac5f273ec0d1429f9748a4c875e1c00e8.jar" />
-    </item>
-    <item
-        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-8810d78a3fbec6c46adc9473e3824b1cc034d92e.jar" />
-    </item>
-    <item
-        jar="/Users/yahyabayramoglu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-be370459d8c59148887320a0fcc1912f7d0df3ec.jar" />
-    </item>
-    <item
-        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.yayandroid/TheActivityManager/1.0.2/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1d1ac91711d6167578d039231ec24545a09c56b2">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-a5edd5395d719743a1163d11ada54a5fd8e4b409.jar" />
-    </item>
-    <item
-        jar="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/yahyabayramoglu/Github_Originals/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-9719bdca377b2aeb09798350e80940204f546434.jar" />
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-3b4a12b971a3d43cda0ce79c065fa2da426fed92.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-b33b4b112ff9a1ba8ebd3e70dc8294905243df64.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.yayandroid/TheActivityManager/1.0.5/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="60995bde129ee0c84c4a3f6dc3ca02de8d94073e">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-04ce726dddd435a0dd818072bb5489b650dc55da.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-19839782bd76352c57204b8489bf53285d3f5fc7.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-6f61b8e61d9f2d359e542b993d19abd6a8d922f6.jar" />
     </item>
 
 </items>

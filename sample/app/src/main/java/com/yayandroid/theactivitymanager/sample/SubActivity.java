@@ -3,12 +3,10 @@ package com.yayandroid.theactivitymanager.sample;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.yayandroid.theactivitymanager.ManagerBaseActivity;
-
 /**
  * Created by yahyabayramoglu on 06/04/15.
  */
-public class SubActivity extends ManagerBaseActivity {
+public class SubActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

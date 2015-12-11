@@ -4,14 +4,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.yayandroid.theactivitymanager.ManagerBaseActivity;
 import com.yayandroid.theactivitymanager.TheActivityManager;
-
 
 /**
  * Created by yahyabayramoglu on 06/04/15.
  */
-public class FinalActivity extends ManagerBaseActivity {
+public class FinalActivity extends BaseActivity {
 
     private FinalActivityType type = FinalActivityType.NONE;
 

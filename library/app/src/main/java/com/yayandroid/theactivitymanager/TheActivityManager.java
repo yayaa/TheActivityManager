@@ -14,6 +14,7 @@ import android.util.Log;
 public class TheActivityManager {
 
     private final int HONEYCOMB = 11;
+    private static boolean logEnabled = false;
 
     /**
      * The static instance of this class
@@ -45,6 +46,17 @@ public class TheActivityManager {
             instance.activities = new ArrayList<>();
         }
         return instance;
+    }
+
+    public static boolean isLogEnabled() {
+        return logEnabled;
+    }
+
+    /**
+     * Enable log in order to see any step of activity changes
+     */
+    public void setLogEnabled(boolean enabled) {
+        TheActivityManager.logEnabled = enabled;
     }
 
     /**
@@ -233,7 +245,7 @@ public class TheActivityManager {
         synchronized (activities) {
             for (int i = activities.size() - 1; i >= 0; i--) {
                 if (activities.get(i).getActivity().equals(activity)) {
-                    activities.remove(i);
+                    activities.remove(i).removed();
                     break;
                 }
             }
@@ -247,7 +259,7 @@ public class TheActivityManager {
         synchronized (activities) {
             for (int i = activities.size() - 1; i >= 0; i--) {
                 if (clazz.isInstance(activities.get(i).getActivity())) {
-                    activities.get(i).getActivity().finish();
+                    activities.get(i).finish();
                     activities.remove(i);
                 }
             }
@@ -260,7 +272,7 @@ public class TheActivityManager {
     public void finishAll() {
         synchronized (activities) {
             for (int i = activities.size() - 1; i >= 0; i--) {
-                activities.get(i).getActivity().finish();
+                activities.get(i).finish();
                 activities.remove(i);
             }
         }
@@ -275,7 +287,7 @@ public class TheActivityManager {
                 if (activities.get(i).isLanding()) {
                     return;
                 } else {
-                    activities.get(i).getActivity().finish();
+                    activities.get(i).finish();
                     activities.remove(i);
                 }
             }
@@ -291,7 +303,7 @@ public class TheActivityManager {
                 if (clazz.isInstance(activities.get(i).getActivity())) {
                     return;
                 } else {
-                    activities.get(i).getActivity().finish();
+                    activities.get(i).finish();
                     activities.remove(i);
                 }
             }

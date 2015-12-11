@@ -4,12 +4,10 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.TextView;
 
-import com.yayandroid.theactivitymanager.ManagerBaseActivity;
-
 /**
  * Created by yahyabayramoglu on 06/04/15.
  */
-public class Sub2Activity extends ManagerBaseActivity {
+public class Sub2Activity extends BaseActivity {
 
     private String stepMessage;
 

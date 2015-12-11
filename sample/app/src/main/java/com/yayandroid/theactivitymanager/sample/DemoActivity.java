@@ -13,7 +13,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.yayandroid.theactivitymanager.ActivityTransporter;
-import com.yayandroid.theactivitymanager.ManagerBaseActivity;
 import com.yayandroid.theactivitymanager.TheActivityManager;
 
 import java.util.ArrayList;
@@ -21,7 +20,7 @@ import java.util.ArrayList;
 /**
  * Created by yahyabayramoglu on 06/04/15.
  */
-public class DemoActivity extends ManagerBaseActivity implements AdapterView.OnItemClickListener {
+public class DemoActivity extends BaseActivity implements AdapterView.OnItemClickListener {
 
     private String[] texts;
     private String[] alphabet = new String[]{"A", "B", "C", "D"};

@@ -6,7 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * Created by yahyabayramoglu on 06/04/15.
  */
-public class ManagerBaseActivity extends AppCompatActivity {
+public class TAMBaseActivity extends AppCompatActivity {
+
+    /**
+     * Flag to determine that activity has killed by TheActivityManager or not
+     */
+    protected boolean isFinishedByTAM = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +34,16 @@ public class ManagerBaseActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        TheActivityManager.getInstance().onDestroy(this);
+
+        if (isFinishedByTAM) {
+            // Don't even bother, TheActivityManager already knows it!
+        } else {
+            TheActivityManager.getInstance().onDestroy(this);
+        }
+    }
+
+    public void finishedByTAM() {
+        this.isFinishedByTAM = true;
     }
 
 }
