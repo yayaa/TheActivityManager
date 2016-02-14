@@ -1,6 +1,10 @@
 TheActivityManager
 ==================
 
+<a href="http://developer.android.com/index.html" target="_blank"><img src="https://img.shields.io/badge/platform-android-green.svg"/></a> <a href="https://android-arsenal.com/api?level=8" target="_blank"><img src="https://img.shields.io/badge/API-8%2B-green.svg?style=flat"/></a> <a href="http://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat"/></a> <a href="http://search.maven.org/#search%7Cga%7C1%7CTheActivityManager" target="_blank"><img src="https://img.shields.io/maven-central/v/com.yayandroid/TheActivityManager.svg"/></a>
+
+<a href="http://www.methodscount.com/?lib=com.yayandroid%3ATheActivityManager%3A1.0.5"><img src="https://img.shields.io/badge/Methods count-74-e91e63.svg"></img></a> <a href="http://www.methodscount.com/?lib=com.yayandroid%3ATheActivityManager%3A1.0.5" target="_blank"><img src="https://img.shields.io/badge/Size-19 KB-e91e63.svg"></img></a> <a href="http://android-arsenal.com/details/1/3150" target="_blank"><img src="https://img.shields.io/badge/Android%20Arsenal-TheActivityManager-brightgreen.svg?style=flat"/></a>
+
 Android OS starts activities up to intents you send as a broadcast, but because it is done privately, you cannot track those activities. You may never know which activity is currently visible, unless you work around somehow. This library will provide you to manage that.
 
 This library uses a singleton class to create a static object and keep instances of your activities. So, you can reach them out whenever you want, and do whatever you wish. 
