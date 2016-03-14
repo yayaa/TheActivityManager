@@ -5,6 +5,8 @@ TheActivityManager
 
 <a href="http://www.methodscount.com/?lib=com.yayandroid%3ATheActivityManager%3A1.0.5" target="_blank"><img src="https://img.shields.io/badge/Methods count-74-e91e63.svg"></img></a> <a href="http://www.methodscount.com/?lib=com.yayandroid%3ATheActivityManager%3A1.0.5" target="_blank"><img src="https://img.shields.io/badge/Size-19 KB-e91e63.svg"></img></a> <a href="http://android-arsenal.com/details/1/3150" target="_blank"><img src="https://img.shields.io/badge/Android%20Arsenal-TheActivityManager-brightgreen.svg?style=flat"/></a>
 
+<b> Tested with [Leak Canary][1] </b>
+
 Android OS starts activities up to intents you send as a broadcast, but because it is done privately, you cannot track those activities. You may never know which activity is currently visible, unless you work around somehow. This library will provide you to manage that.
 
 This library uses a singleton class to create a static object and keep instances of your activities. So, you can reach them out whenever you want, and do whatever you wish. 
@@ -58,7 +60,7 @@ dependencies {
 Name Story
 ----------
 
-I thought to name it as ActivityManager but didn't want it to be confused with Android's ActivityManager and than my friend remind me [John Carmack][1]'s tweet and it was just perfect fit, so it became "TheActivityManager".
+I thought to name it as ActivityManager but didn't want it to be confused with Android's ActivityManager and than my friend remind me [John Carmack][2]'s tweet and it was just perfect fit, so it became "TheActivityManager".
 
 <blockquote class="twitter-tweet" lang="tr"><p>I have moved to naming global singletons with a The* prefix -- ThePacketServer, TheMasterServer, TheVoip, etc. Feels pretty good.</p>&mdash; John Carmack (@ID_AA_Carmack) <a href="https://twitter.com/ID_AA_Carmack/status/575788622554628096">11 Mart 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -95,4 +97,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-[1]: https://twitter.com/ID_AA_Carmack
+[1]: https://github.com/square/leakcanary
+[2]: https://twitter.com/ID_AA_Carmack
