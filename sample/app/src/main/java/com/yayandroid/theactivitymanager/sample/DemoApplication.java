@@ -2,6 +2,7 @@ package com.yayandroid.theactivitymanager.sample;
 
 import android.app.Application;
 
+import com.squareup.leakcanary.LeakCanary;
 import com.yayandroid.theactivitymanager.TheActivityManager;
 
 /**
@@ -13,6 +14,8 @@ public class DemoApplication extends Application {
     public void onCreate() {
         super.onCreate();
         TheActivityManager.getInstance().setLogEnabled(true);
+
+        LeakCanary.install(this);
     }
 
 }
