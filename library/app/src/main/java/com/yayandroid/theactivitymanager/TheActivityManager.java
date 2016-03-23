@@ -2,10 +2,12 @@ package com.yayandroid.theactivitymanager;
 
 import java.util.ArrayList;
 
-import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.app.Activity;
+import android.app.Application;
 import android.content.Intent;
 import android.os.Build;
+import android.os.Bundle;
 import android.util.Log;
 
 /*
@@ -14,6 +16,7 @@ import android.util.Log;
 public class TheActivityManager {
 
     private final int HONEYCOMB = 11;
+    private final int ICE_CREAM_SANDWICH = 14;
     private static boolean logEnabled = false;
 
     /**
@@ -46,6 +49,55 @@ public class TheActivityManager {
             instance.activities = new ArrayList<>();
         }
         return instance;
+    }
+
+    /**
+     * By this configuration, you will not need to extend activities from TAMBaseActivity
+     * this will automatically notify TheActivityManager about activityLifecycle whenever necessary
+     */
+    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
+    public void configure(Application application) {
+        if (Build.VERSION.SDK_INT < ICE_CREAM_SANDWICH) {
+            Log.e("TheActivityManager", "This method is not supported before ICE_CREAM_SANDWICH (Api Level 14)");
+            return;
+        }
+
+        application.registerActivityLifecycleCallbacks(new Application.ActivityLifecycleCallbacks() {
+            @Override
+            public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
+                TheActivityManager.getInstance().onCreate(activity);
+            }
+
+            @Override
+            public void onActivityStarted(Activity activity) {
+
+            }
+
+            @Override
+            public void onActivityResumed(Activity activity) {
+                TheActivityManager.getInstance().onResume(activity);
+            }
+
+            @Override
+            public void onActivityPaused(Activity activity) {
+                TheActivityManager.getInstance().onPause(activity);
+            }
+
+            @Override
+            public void onActivityStopped(Activity activity) {
+
+            }
+
+            @Override
+            public void onActivitySaveInstanceState(Activity activity, Bundle outState) {
+
+            }
+
+            @Override
+            public void onActivityDestroyed(Activity activity) {
+                TheActivityManager.getInstance().onDestroy(activity);
+            }
+        });
     }
 
     public static boolean isLogEnabled() {
@@ -141,10 +193,10 @@ public class TheActivityManager {
     /**
      * Starts a new set of activities
      */
-    @SuppressLint("NewApi")
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public void startWithNewArray(Intent[] array) {
         if (Build.VERSION.SDK_INT < HONEYCOMB) {
-            Log.e("TheActivityManager", "This method is not supported before Honeycomb (Api Level 11)");
+            Log.e("TheActivityManager", "This method is not supported before HONEYCOMB (Api Level 11)");
             return;
         }
 

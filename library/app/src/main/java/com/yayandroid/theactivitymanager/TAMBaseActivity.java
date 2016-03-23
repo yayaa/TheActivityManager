@@ -37,6 +37,8 @@ public class TAMBaseActivity extends AppCompatActivity {
 
         if (isFinishedByTAM) {
             // Don't even bother, TheActivityManager already knows it!
+            // Actually even if you call onDestroy on TheActivityManager,
+            // because this activity is already removed from array it will do nothing.
         } else {
             TheActivityManager.getInstance().onDestroy(this);
         }

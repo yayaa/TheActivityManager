@@ -5,7 +5,7 @@ import android.util.Log;
 
 /**
  * To keep activity's instance and its current state of running
- * <p>
+ * <p/>
  * Created by yahyabayramoglu on 03/04/15.
  */
 public class ActivityHolder {
@@ -53,6 +53,7 @@ public class ActivityHolder {
         if (activity instanceof TAMBaseActivity) {
             ((TAMBaseActivity) activity).finishedByTAM();
         }
+
         activity.finish();
         log(" destroyed.");
     }

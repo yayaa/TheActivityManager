@@ -15,6 +15,10 @@ public class DemoApplication extends Application {
         super.onCreate();
         TheActivityManager.getInstance().setLogEnabled(true);
 
+        // If only your application targets minSdkVersion=14
+        // CAUTION: If you call this method, DO NOT extend your activities from TAMBaseActivity
+        // TheActivityManager.getInstance().configure(this);
+
         LeakCanary.install(this);
     }
 

@@ -2,32 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/classes.jar"
+        jar="/Users/ybayram/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3.1/6904771474c058abfc5912c13d12b02754712165/leakcanary-watcher-1.3.1.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
-        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-cbd2448479679e0ef7b791432a017ba41e1349f9.jar" />
+        revision="23.0.2"
+        sha1="6904771474c058abfc5912c13d12b02754712165">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/leakcanary-watcher-1.3.1-1d042f460f8ae0dc346b4c984a794f4c36008f31.jar" />
     </item>
     <item
-        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-3b4a12b971a3d43cda0ce79c065fa2da426fed92.jar" />
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-94bccb7e36460b64e66a8b0207db0f3800398cdb.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-1e182fa1aeef9b3f987bdb7a40f84aeccb220eed.jar" />
     </item>
     <item
         jar="/Users/ybayram/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.3/d2c832f9d14a11c79f58a7ee2e10526a12152c72/haha-1.3.jar"
         jumboMode="false"
-        revision="21.1.2"
+        revision="23.0.2"
         sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
         <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/haha-1.3-3e37041306dbb7db2bd617700d470f1ae608b6b0.jar" />
     </item>
     <item
-        jar="/Users/ybayram/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3.1/325e7401a7ea16918eb39ba8baad8fd5561a55d3/leakcanary-analyzer-1.3.1.jar"
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/libs/internal_impl-23.2.0.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
-        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/leakcanary-analyzer-1.3.1-96e9339e3ee497a4dc0be2be3a104e24186ebaab.jar" />
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-59435ba3a33b649cde131793eb9fd58118a0cb01.jar" />
     </item>
     <item
         jar="/Users/ybayram/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3.1/6904771474c058abfc5912c13d12b02754712165/leakcanary-watcher-1.3.1.jar"
@@ -37,32 +44,67 @@
         <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/leakcanary-watcher-1.3.1-1d042f460f8ae0dc346b4c984a794f4c36008f31.jar" />
     </item>
     <item
-        jar="/Users/ybayram/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.yayandroid/TheActivityManager/1.0.6/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-b33b4b112ff9a1ba8ebd3e70dc8294905243df64.jar" />
+        revision="23.0.2"
+        sha1="200f98e4a9f2a1c08ac6b1b9b9111092efec3c29">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-e403e1fc9cb8787300d8caf48ebecf0deecbbe10.jar" />
     </item>
     <item
-        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.yayandroid/TheActivityManager/1.0.5/classes.jar"
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="60995bde129ee0c84c4a3f6dc3ca02de8d94073e">
-        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-04ce726dddd435a0dd818072bb5489b650dc55da.jar" />
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-cbd2448479679e0ef7b791432a017ba41e1349f9.jar" />
     </item>
     <item
-        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jar="/Users/ybayram/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-19839782bd76352c57204b8489bf53285d3f5fc7.jar" />
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-73adf36b5102d90a5e847cb319016f2a47f83d36.jar" />
     </item>
     <item
-        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jar="/Users/ybayram/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.3/d2c832f9d14a11c79f58a7ee2e10526a12152c72/haha-1.3.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-6f61b8e61d9f2d359e542b993d19abd6a8d922f6.jar" />
+        sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/haha-1.3-3e37041306dbb7db2bd617700d470f1ae608b6b0.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-1e8cf8e2de5579dc296c059d13980ecef5788c54.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3.1/325e7401a7ea16918eb39ba8baad8fd5561a55d3/leakcanary-analyzer-1.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/leakcanary-analyzer-1.3.1-96e9339e3ee497a4dc0be2be3a104e24186ebaab.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3.1/325e7401a7ea16918eb39ba8baad8fd5561a55d3/leakcanary-analyzer-1.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/leakcanary-analyzer-1.3.1-96e9339e3ee497a4dc0be2be3a104e24186ebaab.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-1bdc90d7bc852c6db1a27974ec0083f873344a7d.jar" />
+    </item>
+    <item
+        jar="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="/Users/ybayram/Projects/Android/Github/TheActivityManager/sample/app/build/intermediates/pre-dexed/debug/classes-cbd2448479679e0ef7b791432a017ba41e1349f9.jar" />
     </item>
 
 </items>
