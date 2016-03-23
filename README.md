@@ -11,17 +11,23 @@ Android OS starts activities up to intents you send as a broadcast, but because 
 
 This library uses a singleton class to create a static object and keep instances of your activities. So, you can reach them out whenever you want, and do whatever you wish. 
 
-# USAGE
+## Configuration
 
 To use this library, you need to notify TheActivityManager `onCreate`, `onResume`, `onPause` and `onDestroy` of activity. 
 
 You can call these methods by yourself in every activity that you create
+
 <b>OR</b>
+
 To simplify this step i created a `TAMBaseActiviy`, which extends from AppCompatActivity, so just extend your activities from this and it will take care of the rest. 
+
 <b>OR</b>
+
 if your application's minSdkVersion >= 14 then you can simply call `TheActivityManager.getInstance().configure(application)` and it will handle all.
 
 <b>CAUTION:</b> If you call configure method, you MUST call it only once, and you MUST NOT extend your activities from `TAMBaseActiviy` otherwise it will create multiple instance in TheActivityManager array, which may cause crash!
+
+## Usage
 
 ```java 
 TheActivityManager.getInstance().getCurrentActivity(); 
